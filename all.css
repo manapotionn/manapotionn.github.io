@@ -1,0 +1,68 @@
+nav{
+  padding: 20px;
+  background-color: blue;
+}
+
+nav a{
+  text-decoration: none;
+  margin-left: 10px;
+  font-size: 20px;
+  color: white;
+}
+
+.index, .about, .projects{
+  margin: 2% 2%;
+}
+
+.index{
+  /*background-image: url(images/me.png); */
+  background-color: rgb(201, 253, 255);
+  padding: 200px;
+}
+
+.name h1{
+  text-align: center;
+}
+
+.picture{
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.picture img{
+  width: 90%;
+}
+
+.text{
+  width: 49%;
+  display: inline-block;
+}
+
+.projects a{
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 1px;
+}
+
+.projects a:hover{
+  background-color: blue;
+}
+
+.bigredgifts{
+  width: 40%;
+  display: inline-block;
+}
+
+.picture2{
+  width: 59%;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.picture2 img{
+  width: 100%;
+}
