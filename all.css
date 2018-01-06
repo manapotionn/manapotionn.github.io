@@ -18,6 +18,7 @@ nav a{
   /*background-image: url(images/me.png); */
   background-color: rgb(201, 253, 255);
   padding: 200px;
+  height: 100%; 
 }
 
 .name h1{
