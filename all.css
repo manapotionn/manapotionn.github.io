@@ -6,7 +6,6 @@ html, body{
 
 nav{
   padding: 20px;
-  background-color: blue;
 }
 
 nav a{
@@ -16,8 +15,13 @@ nav a{
   color: white;
 }
 
+nav a:hover{
+  color: blue; /* change later */
+}
+
 h1{
   text-align: center;
+  color: black;
 }
 
 .about, .projects{
@@ -30,14 +34,27 @@ h1{
 }
 
 .index{
-  /*background-image: url(images/me.png); */
-  background-color: rgb(201, 253, 255);
+  background-image: url(images/me.jpg);
+  background-size: cover;
+  background-position: bottom;
+  /*background-color: rgb(201, 253, 255);*/
   height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
-.name h1{
-  text-align: center;
-  padding-top: 10%;
+.name{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* name on index div */
+#name{
+  font-size: 80px;
+  margin: 0;
+  color: white;
 }
 
 .picture{
@@ -73,7 +90,7 @@ h1{
 }
 
 .projects a:hover{
-  background-color: blue;
+  background-color: blue; /* change color */
 }
 
 /* .projects h2, p{
