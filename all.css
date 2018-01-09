@@ -6,17 +6,19 @@ html, body{
 
 nav{
   padding: 20px;
+  position: fixed;
+  /*background-color: #7abeff;*/
 }
 
 nav a{
   text-decoration: none;
   margin-left: 10px;
   font-size: 20px;
-  color: white;
+  color: black;
 }
 
 nav a:hover{
-  color: blue; /* change later */
+  color: gray; /* change later */
 }
 
 h1{
@@ -24,9 +26,10 @@ h1{
   color: black;
 }
 
-.about, .projects{
+.about, .skills, .projects{
   margin: 2% 2%;
   padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .index, .about div{
@@ -52,6 +55,7 @@ h1{
 
 /* name on index div */
 #name{
+  text-decoration: none;
   font-size: 80px;
   margin: 0;
   color: white;
