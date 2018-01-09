@@ -26,6 +26,7 @@ h1{
 
 .about, .projects{
   margin: 2% 2%;
+  padding-bottom: 20px;
 }
 
 .index, .about div{
@@ -37,7 +38,6 @@ h1{
   background-image: url(images/me.jpg);
   background-size: cover;
   background-position: bottom;
-  /*background-color: rgb(201, 253, 255);*/
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -72,10 +72,19 @@ h1{
   display: inline-block;
 }
 
+.text p{
+  text-align: left;
+}
+
+.skills p{
+  text-align: center;
+}
+
 /* projects */
 .projects .buttons{
-  display: block;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  /*margin: 0 auto; */
 }
 
 .projects a{
@@ -90,15 +99,15 @@ h1{
 }
 
 .projects a:hover{
-  background-color: blue; /* change color */
+  background-color: #eaf3fc;
 }
 
-/* .projects h2, p{
+.projects h2, p{
   text-align: center;
-} */
+}
 
 .picture2 img{
-  width: 70%;
+  width: 90%;
   display: block;
   margin: 0 auto;
 }
@@ -106,4 +115,17 @@ h1{
 .bigredgifts, .ihs, .portfolio, .apple{
   padding-left: 15%;
   padding-right: 15%;
+  padding-bottom: 20px;
+}
+
+.bigredgifts{
+  background-color: #ffe0e0;
+}
+
+.ihs{
+  background-color: #FCFECD;
+}
+
+.portfolio{
+  background-color: #d4eaff;
 }
