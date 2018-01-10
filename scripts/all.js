@@ -1,6 +1,6 @@
 /* smooth scroll */
 $('.nav').localScroll({
-  duration: 300,
+  duration: 400,
   easing: 'swing'
 });
 

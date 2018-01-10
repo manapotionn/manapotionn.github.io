@@ -23,6 +23,7 @@ nav a:hover{
 }
 
 h1{
+  font-size: 60px;
   text-align: center;
   color: black;
 }
@@ -39,7 +40,7 @@ h1{
 }
 
 .index{
-  background-image: url(images/me.jpg);
+  background-image: url(images/me3.jpg);
   background-size: cover;
   background-position: bottom;
   height: 100%;
@@ -52,6 +53,7 @@ h1{
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 140px;
 }
 
 /* name on index div */
@@ -81,11 +83,33 @@ h1{
   text-align: left;
 }
 
+.text li{
+  margin-bottom: 10px;
+}
+
+.text a{
+  color: rgb(62, 178, 228);
+  text-decoration: none;
+}
+
+.text a:hover{
+  color: gray;
+}
+
+.text_header p{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
 .skills p{
   text-align: center;
 }
 
 /* projects */
+.projects{
+  margin: 20px;
+}
+
 .projects .buttons{
   display: flex;
   justify-content: center;
