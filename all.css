@@ -142,10 +142,14 @@ h1{
   margin: 0 auto;
 }
 
-.bigredgifts, .ihs, .portfolio, .apple{
+.bigredgifts, .ihs, .portfolio, .apple, .c3website{
   padding-left: 15%;
   padding-right: 15%;
   padding-bottom: 20px;
+}
+
+.c3website{
+  background-color: #e8e0fa;
 }
 
 .bigredgifts{
