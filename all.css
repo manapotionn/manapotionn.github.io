@@ -132,6 +132,18 @@ h1{
   background-color: #eaf3fc;
 }
 
+#github_link{
+  border:none;
+  color: rgb(62, 178, 228);
+  padding: 0px;
+  margin: 0px;
+}
+
+#github_link:hover{
+    color: gray;
+    background-color: white; 
+}
+
 .projects h2, p{
   text-align: center;
 }
